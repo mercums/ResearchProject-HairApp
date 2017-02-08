@@ -1,56 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<style>
-body {
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-}
+    <style>
+    body {
+            font-family: Georgia;
+            transition: background-color .5s;
+        }
 
-.sidenav {
-    height: 100%;
-    width: 0;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    left: 0;
-    background-color: #f5f5f5;
-    overflow-x: hidden;
-    transition: 0.5s;
-    padding-top: 60px;
-}
 
-.sidenav a {
-    padding: 8px 8px 8px 32px;
-    text-decoration: none;
-    font-size: 25px;
-    color: #818181;
-    display: block;
-    transition: 0.3s
-}
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: gray;
+            background:black;/* Standard syntax (must be last) */
 
-.sidenav a:hover, .offcanvas a:focus{
-    color: #ffefc4;
-}
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 75px;
+        }
 
-.sidenav .closebtn {
-    position: absolute;
-    top: 0;
-    right: 50px;
-    font-size: 36px;
-    margin-left: 100px;
-}
+        .sidenav a {
+            padding: 8px 8px 8px 32px;
+            text-decoration: none;
+            font-family: 'Merriweather';
+            font-weight: 10;
+            font-size: 20px;
+            text-transform: uppercase;
+            color: #d8bfd8;
+            display: block;
+            transition: 0.3s
+        }
 
-#main {
-    transition: margin-left .5s;
-    padding: 16px;
-}
+        .sidenav a:hover, .offcanvas a:focus{
+            color: white;
+            text-decoration: none;
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 10px;}
-  .sidenav a {font-size: 18px;}
-}
-</style>
+        }
 
+        .sidenav .closebtn {
+            position: absolute;
+            top: 0;
+            right: 50px;
+            font-size: 36px;
+            margin-left: 100px;
+        }
+
+        #main {
+            transition: margin-left .5s;
+            padding: 16px;
+        }
+
+        
+        @media screen and (max-height: 450px) {
+          .sidenav {padding-top: 10px;}
+          .sidenav a {font-size: 18px;}
+        }
+        </style>
 <head>
 
     <meta charset="utf-8">
@@ -86,10 +94,12 @@ body {
 
 </head>
 
+
+
 <body id="page-top">
 
     <!--Nav Bar-->
-    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top" style="background-color: black;">
             <div class="container-fluid">
                 <!-- Brand and toggle get grouped for better mobile display -->
                 <div class="navbar-header">
@@ -152,167 +162,37 @@ body {
             </div>
         </div>
     </header> -->
-
+<br>
+<br>
+<br>
     <section id="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <h2 class="section-heading">We've got what you need!</h2>
+                    <h1 class="section-heading">The Creators</h1>
                     <hr class="light">
-                    <p class="text-faded">Start Bootstrap has everything you need to get your new website up and running in no time! All of the templates and themes on Start Bootstrap are open source, free to download, and easy to use. No strings attached!</p>
-                    <a href="#services" class="page-scroll btn btn-default btn-xl sr-button">Get Started!</a>
+                        <p>My partner and I are currently embarking on our respective hair journey’s. We are trying to find out what is best for our hair’s health and growth. Many people, especially those of afro descent, don’t understand their hair and the care that it needs</p>
+                        <img src="img/afrowoman.png" alt="some_text" style="width:140px;height:150px;">
+                       
+                    <hr class="light">
+                    <h4 style="color:black;">The Struggle</h4>
+                        <p>
+                        Many spend so much time and money going down the wrong hair care path because they only have the word of their hair stylist or someone who may not have the same hair type.<br> <br>
+                        
+                        There is a lack of natrual and ethnic hair platform on the current internet. Going on a hair journey, especially alone, is something that is very difficult and requires guidance. <br> <br>
+                        
+                        The two of us wanted to create this website to serve as a light in a dark tunnel. We want to provide an organized and informational hair care platform where people can keep track of their hair care journey’s and find information relevant to their hair specifically.
+                        </p>
+                    <a href="about.html"></a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="services">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">At Your Service</h2>
-                    <hr class="primary">
-                </div>
-            </div>
-        </div>
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-diamond text-primary sr-icons"></i>
-                        <h3>Sturdy Templates</h3>
-                        <p class="text-muted">Our templates are updated regularly so they don't break.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-paper-plane text-primary sr-icons"></i>
-                        <h3>Ready to Ship</h3>
-                        <p class="text-muted">You can use this theme as is, or you can make changes!</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-newspaper-o text-primary sr-icons"></i>
-                        <h3>Up to Date</h3>
-                        <p class="text-muted">We update dependencies to keep things fresh.</p>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 text-center">
-                    <div class="service-box">
-                        <i class="fa fa-4x fa-heart text-primary sr-icons"></i>
-                        <h3>Made with Love</h3>
-                        <p class="text-muted">You have to make your websites with love these days!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section class="no-padding" id="portfolio">
-        <div class="container-fluid">
-            <div class="row no-gutter popup-gallery">
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/1.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/1.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/2.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/2.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/3.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/3.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/4.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/4.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/5.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/5.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-                <div class="col-lg-4 col-sm-6">
-                    <a href="img/portfolio/fullsize/6.jpg" class="portfolio-box">
-                        <img src="img/portfolio/thumbnails/6.jpg" class="img-responsive" alt="">
-                        <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <div class="project-category text-faded">
-                                    Category
-                                </div>
-                                <div class="project-name">
-                                    Project Name
-                                </div>
-                            </div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
+    
 
     <aside class="bg-dark">
-        <div class="container text-center">
-            <div class="call-to-action">
-                <h2>Free Download at Start Bootstrap!</h2>
-                <a href="http://startbootstrap.com/template-overviews/creative/" class="btn btn-default btn-xl sr-button">Download Now!</a>
-            </div>
-        </div>
+       
     </aside>
 
     <section id="contact">
@@ -351,20 +231,19 @@ body {
     
     <!--Custom JavaScript -->
     <script>
-        function openNav() {
-        document.getElementById("main").style.marginLeft = "20%";
-        document.getElementById("mySidenav").style.width = "20%";
-        document.getElementById("main").style.marginLeft = "250px";
-        document.getElementById("mySidenav").style.display = "block";
-        document.getElementById("openNav").style.display = 'none';
-        document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
-}
-        function closeNav() {
-        document.getElementById("main").style.marginLeft = "0%";
-        document.getElementById("main").style.marginLeft = "0";
-        document.getElementById("mySidenav").style.display = "none";
-         document.getElementById("openNav").style.display = "inline-block";
-        document.body.style.backgroundColor = "white";
+         function openNav() {
+            document.getElementById("mySidenav").style.width = "250px";
+            document.getElementById("main").style.marginLeft = "250px";
+            document.getElementById("mainNav").style.marginLeft = "250px";
+            document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+        }
+
+                /* Set the width of the side navigation to 0 and the left margin of the page content to 0, and the background color of body to white */
+            function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+            document.getElementById("main").style.marginLeft = "0";
+            document.getElementById("mainNav").style.marginLeft = "0";
+            document.body.style.backgroundColor = "rgba(0,0,0,0)";
         }
     </script>
 
